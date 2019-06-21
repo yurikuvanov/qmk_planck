@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_LOWER] = LAYOUT_planck_grid(
-    _______, KC_EXLM, JP_AT,   KC_HASH, KC_DLR,  KC_PERC, JP_CIRC, JP_AMPR, JP_ASTR, JP_LPRN, JP_RPRN, KC_DEL,
+    KC_GRV,  KC_EXLM, JP_AT,   KC_HASH, KC_DLR,  KC_PERC, JP_CIRC, JP_AMPR, JP_ASTR, JP_LPRN, JP_RPRN, KC_DEL,
     _______, XXXXXXX, KC_VOLD, KC_VOLU, KC_MUTE, JP_TILD,  JP_YEN, JP_LBRC, JP_RBRC, JP_LCBR, JP_RCBR, JP_DQT,
     _______, XXXXXXX, KC_MRWD, KC_MFFD, KC_MPLY, JP_CIRC, JP_PIPE, JP_UNDS, JP_PLUS, JP_LT,    JP_GT, JP_QUOT,
     _______, _______, _______, _______, _______, _______, _______, _______,    KC_MNXT,    KC_VOLD, KC_VOLU, KC_MPLY
